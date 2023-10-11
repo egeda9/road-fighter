@@ -59,7 +59,7 @@ namespace UnityStandardAssets.Vehicles.Car
         private void Start()
         {
             m_WheelMeshLocalRotations = new Quaternion[4];
-            for (int i = 0; i < 4; i++)
+            for (var i = 0; i < 4; i++)
             {
                 m_WheelMeshLocalRotations[i] = m_WheelMeshes[i].transform.localRotation;
             }
@@ -69,14 +69,21 @@ namespace UnityStandardAssets.Vehicles.Car
 
             m_Rigidbody = GetComponent<Rigidbody>();
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
+
+            SaveScript.TopSpeed = m_Topspeed;
+        }
+
+        private void Update()
+        {
+            SaveScript.Speed = CurrentSpeed;
         }
 
 
         private void GearChanging()
         {
-            float f = Mathf.Abs(CurrentSpeed/MaxSpeed);
-            float upgearlimit = (1/(float) NoOfGears)*(m_GearNum + 1);
-            float downgearlimit = (1/(float) NoOfGears)*m_GearNum;
+            var f = Mathf.Abs(CurrentSpeed/MaxSpeed);
+            var upgearlimit = (1/(float) NoOfGears)*(m_GearNum + 1);
+            var downgearlimit = (1/(float) NoOfGears)*m_GearNum;
 
             if (m_GearNum > 0 && f < downgearlimit)
             {
@@ -106,7 +113,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void CalculateGearFactor()
         {
-            float f = (1/(float) NoOfGears);
+            var f = (1/(float) NoOfGears);
             // gear factor is a normalised representation of the current speed within the current gear's range of speeds.
             // We smooth towards the 'target' gear factor, so that revs don't instantly snap up or down when changing gear.
             var targetGearFactor = Mathf.InverseLerp(f*m_GearNum, f*(m_GearNum + 1), Mathf.Abs(CurrentSpeed/MaxSpeed));
@@ -128,7 +135,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         public void Move(float steering, float accel, float footbrake, float handbrake)
         {
-            for (int i = 0; i < 4; i++)
+            for (var i = 0; i < 4; i++)
             {
                 Quaternion quat;
                 Vector3 position;
