@@ -8886,6 +8886,13 @@ MonoBehaviour:
   SpeedText: {fileID: 404604240}
   GearText: {fileID: 264576814}
   LapNumberText: {fileID: 290535080}
+  LapTimeMinutesText: {fileID: 1880075197}
+  LapTimeSecondsText: {fileID: 108963373}
+  RaceTimeMinutesText: {fileID: 865886505}
+  RaceTimeSecondsText: {fileID: 1902761405}
+  BestLapTimeMinutesText: {fileID: 1558965246}
+  BestLapTimeSecondsText: {fileID: 1530829505}
+  TotalLaps: 3
 --- !u!114 &1153972500
 MonoBehaviour:
   m_ObjectHideFlags: 0
