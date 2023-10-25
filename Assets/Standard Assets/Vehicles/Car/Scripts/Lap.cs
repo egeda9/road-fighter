@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Lap : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Component other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            SaveScript.AddScore = true;
+            SaveScript.Fuel = 100000;
             SaveScript.LastLapM = SaveScript.LapTimeMinutes;
             SaveScript.LastLapS = SaveScript.LapTimeSeconds;
             SaveScript.LapNumber++;
@@ -18,6 +20,11 @@ public class Lap : MonoBehaviour
                 SaveScript.BestLapTimeM = SaveScript.LastLapM;
                 SaveScript.BestLapTimeS = SaveScript.LastLapS;
             }
+
+            SaveScript.CheckpointPass1 = false;
+            SaveScript.CheckpointPass2 = false;
+            SaveScript.LastCheckPoint1 = SaveScript.ThisCheckPoint1;
+            SaveScript.LastCheckPoint2 = SaveScript.ThisCheckPoint2;
         }
     }
 }

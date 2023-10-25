@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Vehicles.Car;
+using Time = UnityEngine.Time;
 
 public class SaveScript : MonoBehaviour
 {
@@ -18,11 +19,20 @@ public class SaveScript : MonoBehaviour
     public static float BestLapTimeS;
     public static float LastLapM;
     public static float LastLapS;
+    public static float GameTime;
+    public static float LastCheckPoint1;
+    public static float ThisCheckPoint1;
+    public static float LastCheckPoint2;
+    public static float ThisCheckPoint2;
+    public static bool CheckpointPass1;
+    public static bool CheckpointPass2;
+    public static float Score;
+    public static bool AddScore;
+    public static float Fuel;
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -33,12 +43,14 @@ public class SaveScript : MonoBehaviour
             LapChange = false;
             LapTimeMinutes = 0f;
             LapTimeSeconds = 0f;
+            GameTime = 0f;
         }
 
         if (LapNumber >= 1)
         {
             LapTimeSeconds += 1 * Time.deltaTime;
             RaceTimeSeconds += 1 * Time.deltaTime;
+            GameTime += 1 * Time.deltaTime;
         }
 
         if (LapTimeSeconds > 59)
