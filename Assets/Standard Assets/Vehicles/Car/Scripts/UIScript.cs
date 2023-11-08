@@ -30,6 +30,8 @@ public class UIScript : MonoBehaviour
         SpeedText.text = "0";
         GearText.text = "1";
         LapNumberText.text = "0";
+        ScoreText.text = "0";
+        FuelText.text = "100000";
         CheckPointDisplay.SetActive(false);
     }
 
@@ -170,7 +172,10 @@ public class UIScript : MonoBehaviour
         }
 
         // Fuel
-        StartCoroutine(ReduceFuel());
+        if (SaveScript.Speed > 2)
+        {
+            StartCoroutine(ReduceFuel());
+        }
     }
 
     private IEnumerator CheckPointOff()
@@ -181,13 +186,13 @@ public class UIScript : MonoBehaviour
 
     private IEnumerator IncreaseScore()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3f);
         ScoreText.text = SaveScript.Score++.ToString(CultureInfo.InvariantCulture);
     }
 
     private IEnumerator ReduceFuel()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3f);
         FuelText.text = SaveScript.Fuel--.ToString(CultureInfo.InvariantCulture);
     }
 }
