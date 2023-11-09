@@ -11,13 +11,13 @@ public class Checkpoints : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (CheckPoint1)
+            if (this.CheckPoint1)
             {
                 SaveScript.ThisCheckPoint1 = SaveScript.GameTime;
                 SaveScript.CheckpointPass1 = true;
-            }
+            }   
 
-            if (CheckPoint2)
+            if (this.CheckPoint2)
             {
                 SaveScript.ThisCheckPoint2 = SaveScript.GameTime;
                 SaveScript.CheckpointPass2 = true;

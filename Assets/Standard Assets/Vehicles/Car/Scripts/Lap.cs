@@ -9,7 +9,8 @@ public class Lap : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SaveScript.AddScore = true;
-            SaveScript.Fuel = 100000;
+            SaveScript.ReduceFuel = true;
+            SaveScript.Fuel = 800;
             SaveScript.LastLapM = SaveScript.LapTimeMinutes;
             SaveScript.LastLapS = SaveScript.LapTimeSeconds;
             SaveScript.LapNumber++;

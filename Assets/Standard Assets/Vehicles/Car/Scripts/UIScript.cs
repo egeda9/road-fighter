@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour
 {
+    private const float DefaultScore = 100f;
+    private const float DefaultFuel = 150f;
+    private const string InitialFuel = "800";
+
     public Image SpeedRing;
     public Text SpeedText;
     public Text GearText;
@@ -17,9 +21,13 @@ public class UIScript : MonoBehaviour
     public Text BestLapTimeMinutesText;
     public Text BestLapTimeSecondsText;
     public Text CheckPointTime;
+    public Text CheckPointScore;
+    public Text CheckPointFuel;
     public Text ScoreText;
     public Text FuelText;
     public GameObject CheckPointDisplay;
+    public GameObject CheckPointScoreDisplay;
+    public GameObject CheckPointFuelDisplay;
     private float _displaySpeed;
     public int TotalLaps = 3;
 
@@ -31,8 +39,10 @@ public class UIScript : MonoBehaviour
         GearText.text = "1";
         LapNumberText.text = "0";
         ScoreText.text = "0";
-        FuelText.text = "100000";
+        FuelText.text = InitialFuel;
         CheckPointDisplay.SetActive(false);
+        CheckPointScoreDisplay.SetActive(false);
+        CheckPointFuelDisplay.SetActive(false);
     }
 
     // Update is called once per frame
@@ -141,8 +151,12 @@ public class UIScript : MonoBehaviour
             {
                 CheckPointTime.color = Color.green;
                 CheckPointTime.text = $"+{SaveScript.ThisCheckPoint1 - SaveScript.LastCheckPoint1}";
-                StartCoroutine(CheckPointOff());
             }
+
+            SaveScript.CheckpointPass1 = false;
+            StartCoroutine(CheckPointOff());
+            AddScoreOnCheckPoint();
+            AddFuelOnCheckPoint();
         }
 
         // Checkpoint 2
@@ -161,27 +175,84 @@ public class UIScript : MonoBehaviour
             {
                 CheckPointTime.color = Color.green;
                 CheckPointTime.text = $"+{SaveScript.ThisCheckPoint2 - SaveScript.LastCheckPoint2}";
-                StartCoroutine(CheckPointOff());
             }
+
+            SaveScript.CheckpointPass2 = false;
+            StartCoroutine(CheckPointOff());
+            AddScoreOnCheckPoint();
+            AddFuelOnCheckPoint();
         }
 
         // Score
-        if (SaveScript.AddScore)
+        if (SaveScript.AddScore && SaveScript.Speed > 10)
         {
             StartCoroutine(IncreaseScore());
         }
 
+        if (SaveScript.ReduceScore)
+        {
+            ReduceScoreOnCheckPoint();
+        }
+
+        if (SaveScript.LapChange && SaveScript.LapNumber >= 2)
+        {
+            AddScoreOnCheckPoint();
+            AddFuelOnCheckPoint();
+        }
+
         // Fuel
-        if (SaveScript.Speed > 2)
+        if (SaveScript.ReduceFuel && SaveScript.Speed > 5)
         {
             StartCoroutine(ReduceFuel());
         }
     }
 
+    private void AddScoreOnCheckPoint()
+    {
+        CheckPointScoreDisplay.SetActive(true);
+        CheckPointScore.color = Color.green;
+        CheckPointScore.text = $"+{DefaultScore}P";
+        SaveScript.Score += DefaultScore;
+        ScoreText.text = SaveScript.Score.ToString(CultureInfo.InvariantCulture);
+        StartCoroutine(CheckPointScoreOff());
+    }
+
+    private void ReduceScoreOnCheckPoint()
+    {
+        CheckPointScoreDisplay.SetActive(true);
+        CheckPointScore.color = Color.red;
+        CheckPointScore.text = $"-{DefaultScore}P";
+        SaveScript.Score -= DefaultScore;
+        ScoreText.text = SaveScript.Score.ToString(CultureInfo.InvariantCulture);
+        StartCoroutine(CheckPointScoreOff());
+    }
+
+    private void AddFuelOnCheckPoint()
+    {
+        CheckPointFuelDisplay.SetActive(true);
+        CheckPointFuel.color = Color.green;
+        CheckPointFuel.text = $"+{DefaultFuel}F";
+        SaveScript.Fuel += DefaultFuel;
+        FuelText.text = SaveScript.Fuel.ToString(CultureInfo.InvariantCulture);
+        StartCoroutine(CheckPointFuelOff());
+    }
+
     private IEnumerator CheckPointOff()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1f);
         CheckPointDisplay.SetActive(false);
+    }
+
+    private IEnumerator CheckPointScoreOff()
+    {
+        yield return new WaitForSeconds(1f);
+        CheckPointScoreDisplay.SetActive(false);
+    }
+
+    private IEnumerator CheckPointFuelOff()
+    {
+        yield return new WaitForSeconds(1f);
+        CheckPointFuelDisplay.SetActive(false);
     }
 
     private IEnumerator IncreaseScore()

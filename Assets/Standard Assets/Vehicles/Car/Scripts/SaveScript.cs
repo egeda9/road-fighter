@@ -28,7 +28,14 @@ public class SaveScript : MonoBehaviour
     public static bool CheckpointPass2;
     public static float Score;
     public static bool AddScore;
+    public static bool AddFuel;
+    public static bool ReduceScore;
     public static float Fuel;
+    public static bool ReduceFuel;
+    public static bool Rumble1;
+    public static bool Rumble2;
+    public static bool OnTheRoad = true;
+    public static bool OnTheTerrain;
 
     // Start is called before the first frame update
     void Start()
