@@ -36,6 +36,7 @@ public class SaveScript : MonoBehaviour
     public static bool Rumble2;
     public static bool OnTheRoad = true;
     public static bool OnTheTerrain;
+    public static bool WrongWay;
 
     // Start is called before the first frame update
     void Start()

@@ -6,6 +6,7 @@ public class ProgressTracker : MonoBehaviour
 {
     private AudioSource _player;
     private bool _isPlaying;
+    public int CurrentWayPoint = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +19,11 @@ public class ProgressTracker : MonoBehaviour
         if (other.gameObject.CompareTag("Barrier"))
         {
             SaveScript.ReduceScore = true;
-            if (!this._isPlaying)
-            {
-                this._isPlaying = true;
-                this._player.Play();
-            }
+            if (this._isPlaying) 
+                return;
+
+            this._isPlaying = true;
+            this._player.Play();
         }
     }
 

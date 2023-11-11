@@ -9,6 +9,7 @@ TagManager:
   - Barrier
   - Road
   - Terrain
+  - Progress
   layers:
   - Default
   - TransparentFX
