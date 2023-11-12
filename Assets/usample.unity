@@ -196,6 +196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 42
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &21665149
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 1
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &43714004
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 9
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &91169225
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +564,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 71
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &108891877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7207653703646435068, guid: 42a018a395e4ab14f96ac454b74f01b2, type: 3}
@@ -838,6 +846,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 39
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &142458321
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 93
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &169091803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1243,6 +1255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 85
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &201105223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 4
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &208669021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1378922297957006227, guid: 42a018a395e4ab14f96ac454b74f01b2, type: 3}
@@ -1406,6 +1422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 98
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &232461783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,6 +1492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 18
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &252899348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1562,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 89
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &261637973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1632,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 13
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &264576812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,6 +1781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 10
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &277525485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 63
   CarTracking: 0
+  PenaltyOption: 1
+  PenaltyWayPoint: 0
 --- !u!1 &306373887
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,6 +2250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 34
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &326729275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 83
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &331195479
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 40
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &345625962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2509,6 +2543,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 32
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &345743704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 20dd98051ef6dfa4f92a9ab09f61ba18, type: 3}
@@ -2683,6 +2719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 92
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &391217127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,6 +2789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 51
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &404604238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,6 +3055,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 82
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &435871916
 GameObject:
   m_ObjectHideFlags: 0
@@ -3340,6 +3382,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 62
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &528969414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,6 +3968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 8
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &607657756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3992,6 +4038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 37
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &616694290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4060,6 +4108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 16
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &618712443
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,6 +4178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 15
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &621998123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4196,6 +4248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 46
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &643387735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4481,6 +4535,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 49
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &654813164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4549,6 +4605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 60
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!82 &671197382
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6354,6 +6412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 5
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!198 &693282902
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -11115,6 +11175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 95
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &700668429
 GameObject:
   m_ObjectHideFlags: 0
@@ -11332,6 +11394,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentWayPoint: 0
+  CurrentWayPointNumber: 0
+  LastWayPointNumber: 0
 --- !u!54 &700668436
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11427,6 +11491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 28
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &714248744
 GameObject:
   m_ObjectHideFlags: 0
@@ -11495,6 +11561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 11
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &716103623
 GameObject:
   m_ObjectHideFlags: 0
@@ -11563,6 +11631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 68
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &723894820
 GameObject:
   m_ObjectHideFlags: 0
@@ -11697,6 +11767,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 79
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &810750010
 GameObject:
   m_ObjectHideFlags: 0
@@ -11857,6 +11929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 72
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &834697919
 GameObject:
   m_ObjectHideFlags: 0
@@ -12008,6 +12082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 91
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &846745811
 GameObject:
   m_ObjectHideFlags: 0
@@ -12076,6 +12152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 43
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &865308032
 GameObject:
   m_ObjectHideFlags: 0
@@ -12302,6 +12380,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 31
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &890036859
 GameObject:
   m_ObjectHideFlags: 0
@@ -12370,6 +12450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 36
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &890507542
 GameObject:
   m_ObjectHideFlags: 0
@@ -12438,6 +12520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 23
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &895700771
 GameObject:
   m_ObjectHideFlags: 0
@@ -12506,6 +12590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 61
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &900581247
 GameObject:
   m_ObjectHideFlags: 0
@@ -12574,6 +12660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 77
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &900598767
 GameObject:
   m_ObjectHideFlags: 0
@@ -12642,6 +12730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 38
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &924311844
 GameObject:
   m_ObjectHideFlags: 0
@@ -12710,6 +12800,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 101
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &939053897
 GameObject:
   m_ObjectHideFlags: 0
@@ -12857,6 +12949,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 64
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &949592547
 GameObject:
   m_ObjectHideFlags: 0
@@ -12925,6 +13019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 21
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &969564334
 GameObject:
   m_ObjectHideFlags: 0
@@ -12993,6 +13089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 45
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1014787315
 GameObject:
   m_ObjectHideFlags: 0
@@ -13061,6 +13159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 33
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1047657974
 GameObject:
   m_ObjectHideFlags: 0
@@ -13129,6 +13229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 59
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1051299475
 GameObject:
   m_ObjectHideFlags: 0
@@ -13276,6 +13378,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 66
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1096703292
 GameObject:
   m_ObjectHideFlags: 3
@@ -13546,6 +13650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 75
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1117010170
 GameObject:
   m_ObjectHideFlags: 0
@@ -13614,6 +13720,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 70
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1126524648
 GameObject:
   m_ObjectHideFlags: 0
@@ -13682,6 +13790,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 88
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1153972494
 GameObject:
   m_ObjectHideFlags: 0
@@ -13835,6 +13945,7 @@ MonoBehaviour:
   CheckPointDisplay: {fileID: 1993896535}
   CheckPointScoreDisplay: {fileID: 865308032}
   CheckPointFuelDisplay: {fileID: 2087791955}
+  WrongWayText: {fileID: 2091759816}
   TotalLaps: 3
 --- !u!114 &1153972500
 MonoBehaviour:
@@ -13916,6 +14027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 48
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1201520710
 GameObject:
   m_ObjectHideFlags: 0
@@ -14332,6 +14445,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 7
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1289198988
 GameObject:
   m_ObjectHideFlags: 0
@@ -14400,6 +14515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 2
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1306490443
 GameObject:
   m_ObjectHideFlags: 0
@@ -14468,6 +14585,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 87
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1312442648
 GameObject:
   m_ObjectHideFlags: 0
@@ -14536,6 +14655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 26
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1325907958
 GameObject:
   m_ObjectHideFlags: 0
@@ -14604,6 +14725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 100
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1349846813
 GameObject:
   m_ObjectHideFlags: 0
@@ -14672,6 +14795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 22
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1360510731
 GameObject:
   m_ObjectHideFlags: 0
@@ -14789,6 +14914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 54
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1376524473
 GameObject:
   m_ObjectHideFlags: 0
@@ -14857,6 +14984,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 94
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1397207739 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b7e494c92818e7458f357909e087e11, type: 3}
@@ -15038,6 +15167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 12
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1453538776
 GameObject:
   m_ObjectHideFlags: 0
@@ -15106,6 +15237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 27
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1457897628
 GameObject:
   m_ObjectHideFlags: 0
@@ -15174,6 +15307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 35
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1471956291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5217788596335103707, guid: 42a018a395e4ab14f96ac454b74f01b2, type: 3}
@@ -15269,6 +15404,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 53
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1486817522
 GameObject:
   m_ObjectHideFlags: 0
@@ -15337,6 +15474,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 78
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1494518189
 GameObject:
   m_ObjectHideFlags: 0
@@ -15405,6 +15544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 76
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1497412820
 GameObject:
   m_ObjectHideFlags: 0
@@ -15539,6 +15680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 41
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1509604977
 GameObject:
   m_ObjectHideFlags: 0
@@ -15607,6 +15750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 58
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1514317173
 GameObject:
   m_ObjectHideFlags: 0
@@ -15675,6 +15820,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 47
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1527141518
 GameObject:
   m_ObjectHideFlags: 0
@@ -15743,6 +15890,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 90
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1530829503
 GameObject:
   m_ObjectHideFlags: 0
@@ -15890,6 +16039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 6
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1558687266
 GameObject:
   m_ObjectHideFlags: 0
@@ -15958,6 +16109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 52
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1558965244
 GameObject:
   m_ObjectHideFlags: 0
@@ -16105,6 +16258,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 69
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1564657646
 GameObject:
   m_ObjectHideFlags: 0
@@ -16173,6 +16328,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 55
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1579204827
 GameObject:
   m_ObjectHideFlags: 0
@@ -16241,6 +16398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 24
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1606875208
 GameObject:
   m_ObjectHideFlags: 0
@@ -16309,6 +16468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 25
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1608216784
 GameObject:
   m_ObjectHideFlags: 0
@@ -16460,6 +16621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 86
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1625790515
 GameObject:
   m_ObjectHideFlags: 0
@@ -16528,6 +16691,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 20
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1651553077
 GameObject:
   m_ObjectHideFlags: 0
@@ -16596,6 +16761,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 73
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1677275374
 GameObject:
   m_ObjectHideFlags: 0
@@ -16664,6 +16831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 67
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1679181483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16915,6 +17084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 65
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1712366736 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3902904337941717074, guid: 42a018a395e4ab14f96ac454b74f01b2, type: 3}
@@ -17264,6 +17435,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 99
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1782823065
 GameObject:
   m_ObjectHideFlags: 0
@@ -17332,6 +17505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 29
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1809558251
 GameObject:
   m_ObjectHideFlags: 0
@@ -17400,6 +17575,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 96
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1816214775
 GameObject:
   m_ObjectHideFlags: 0
@@ -17468,6 +17645,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 84
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1817541947
 GameObject:
   m_ObjectHideFlags: 0
@@ -17536,6 +17715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 74
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1819089368
 GameObject:
   m_ObjectHideFlags: 0
@@ -17604,6 +17785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 56
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1836504639
 GameObject:
   m_ObjectHideFlags: 0
@@ -17755,6 +17938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 30
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1880075195
 GameObject:
   m_ObjectHideFlags: 0
@@ -17863,6 +18048,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2091759817}
   - {fileID: 277525486}
   - {fileID: 541949614}
   - {fileID: 1723151641}
@@ -18018,6 +18204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 14
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1931999443
 GameObject:
   m_ObjectHideFlags: 0
@@ -18320,6 +18508,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 97
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1978575256
 GameObject:
   m_ObjectHideFlags: 0
@@ -18388,6 +18578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 19
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1984948282
 GameObject:
   m_ObjectHideFlags: 0
@@ -18456,6 +18648,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 57
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1993896535
 GameObject:
   m_ObjectHideFlags: 0
@@ -18630,6 +18824,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 3
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &2025335606
 GameObject:
   m_ObjectHideFlags: 0
@@ -18698,6 +18894,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 17
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &2041692104
 GameObject:
   m_ObjectHideFlags: 0
@@ -18766,6 +18964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 80
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &2043067785
 GameObject:
   m_ObjectHideFlags: 0
@@ -18917,6 +19117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 50
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &2064090376
 GameObject:
   m_ObjectHideFlags: 0
@@ -19222,6 +19424,87 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 81
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
+--- !u!1 &2091759816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091759817}
+  - component: {fileID: 2091759819}
+  - component: {fileID: 2091759818}
+  m_Layer: 5
+  m_Name: WrongWay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2091759817
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091759816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1880149351}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 955.5, y: 567.4}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2091759818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091759816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9622642, g: 0.9577252, b: 0.9577252, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: WRONG WAY!
+--- !u!222 &2091759819
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091759816}
+  m_CullTransparentMesh: 1
 --- !u!1 &2103323392
 GameObject:
   m_ObjectHideFlags: 0
@@ -19290,6 +19573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WayPointNumber: 44
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &2120164221
 PrefabInstance:
   m_ObjectHideFlags: 0

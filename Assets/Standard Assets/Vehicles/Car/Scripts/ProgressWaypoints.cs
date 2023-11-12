@@ -5,7 +5,9 @@ using UnityEngine;
 public class ProgressWaypoints : MonoBehaviour
 {
     public int WayPointNumber;
-    public int CarTracking = 0;
+    public int CarTracking;
+    public bool PenaltyOption;
+    public int PenaltyWayPoint;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,13 +18,19 @@ public class ProgressWaypoints : MonoBehaviour
             if (this.CarTracking < this.WayPointNumber)
             {
                 other.GetComponent<ProgressTracker>().CurrentWayPoint = this.WayPointNumber;
-                Debug.Log($"Current WayPoint = {other.GetComponent<ProgressTracker>().CurrentWayPoint}");
+                //Debug.Log($"Current WayPoint = {other.GetComponent<ProgressTracker>().CurrentWayPoint}");
             }
 
             if (this.CarTracking > this.WayPointNumber)
+                other.GetComponent<ProgressTracker>().LastWayPointNumber = this.WayPointNumber;
+
+            if (this.PenaltyOption)
             {
-                SaveScript.WrongWay = true;
-                Debug.Log("Wrong Way");
+                if (this.CarTracking < this.PenaltyWayPoint)
+                {
+                    Debug.Log("Penalty");
+                }
+
             }
         }
     }

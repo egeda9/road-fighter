@@ -28,6 +28,7 @@ public class UIScript : MonoBehaviour
     public GameObject CheckPointDisplay;
     public GameObject CheckPointScoreDisplay;
     public GameObject CheckPointFuelDisplay;
+    public GameObject WrongWayText;
     private float _displaySpeed;
     public int TotalLaps = 3;
 
@@ -43,6 +44,7 @@ public class UIScript : MonoBehaviour
         CheckPointDisplay.SetActive(false);
         CheckPointScoreDisplay.SetActive(false);
         CheckPointFuelDisplay.SetActive(false);
+        WrongWayText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -204,6 +206,17 @@ public class UIScript : MonoBehaviour
         if (SaveScript.ReduceFuel && SaveScript.Speed > 5)
         {
             StartCoroutine(ReduceFuel());
+        }
+
+        // Wrong way message
+        if (SaveScript.WrongWay)
+        {
+            WrongWayText.SetActive(true);
+        }
+
+        if (!SaveScript.WrongWay)
+        {
+            WrongWayText.SetActive(false);
         }
     }
 
