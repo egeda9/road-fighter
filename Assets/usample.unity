@@ -4478,6 +4478,7 @@ GameObject:
   - component: {fileID: 654801003}
   - component: {fileID: 654801000}
   - component: {fileID: 654801004}
+  - component: {fileID: 654801005}
   m_Layer: 0
   m_Name: ProgressWaypoint (48)
   m_TagString: Untagged
@@ -4537,6 +4538,18 @@ MonoBehaviour:
   CarTracking: 0
   PenaltyOption: 0
   PenaltyWayPoint: 0
+--- !u!114 &654801005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654800999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74bfa0d45a75094a87606a1ef4470b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &654813164
 GameObject:
   m_ObjectHideFlags: 0

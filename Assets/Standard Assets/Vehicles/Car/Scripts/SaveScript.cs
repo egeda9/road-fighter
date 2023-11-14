@@ -37,6 +37,7 @@ public class SaveScript : MonoBehaviour
     public static bool OnTheRoad = true;
     public static bool OnTheTerrain;
     public static bool WrongWay;
+    public static bool HalfWayActivated = true;
 
     // Start is called before the first frame update
     void Start()
