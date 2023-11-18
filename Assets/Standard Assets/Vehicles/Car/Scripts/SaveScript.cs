@@ -6,6 +6,7 @@ using Time = UnityEngine.Time;
 
 public class SaveScript : MonoBehaviour
 {
+    public static float InitialFuel = 2000;
     public static float Speed;
     public static float TopSpeed;
     public static int Gear;
@@ -30,7 +31,7 @@ public class SaveScript : MonoBehaviour
     public static bool AddScore;
     public static bool AddFuel;
     public static bool ReduceScore;
-    public static float Fuel;
+    public static float Fuel = InitialFuel;
     public static bool ReduceFuel;
     public static bool Rumble1;
     public static bool Rumble2;
@@ -38,6 +39,9 @@ public class SaveScript : MonoBehaviour
     public static bool OnTheTerrain;
     public static bool WrongWay;
     public static bool HalfWayActivated = true;
+    public static bool WrongWayTextReset;
+    public static bool ReduceSpeed;
+    public static bool IsGamePaused;
 
     // Start is called before the first frame update
     void Start()

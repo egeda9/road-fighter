@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace UnityStandardAssets.Vehicles.Car
@@ -77,8 +78,30 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             SaveScript.Speed = CurrentSpeed;
             SaveScript.Gear = m_GearNum;
-        }
 
+            if (SaveScript.ReduceSpeed || SaveScript.LapNumber > 3)
+            {
+                // Set the gear to 1
+                m_GearNum = 1;
+
+                // Gradually reduce the car's speed
+                float reductionFactor = 0.95f;
+                m_Rigidbody.velocity = Vector3.Lerp(m_Rigidbody.velocity, Vector3.zero, Time.deltaTime * reductionFactor);
+
+
+                if (SaveScript.Fuel < 50 && SaveScript.Fuel > 0)
+                {
+                    // Gradually reduce the car's speed when fuel is zero
+                    float reductionFactor1 = 0.99f;
+                    m_Rigidbody.velocity = Vector3.Lerp(m_Rigidbody.velocity, Vector3.zero, Time.deltaTime * reductionFactor1);
+                }
+
+                if (SaveScript.Fuel <= 0)
+                {
+                    m_Rigidbody.velocity = Vector3.zero;
+                }
+            }
+        }
 
         private void GearChanging()
         {
