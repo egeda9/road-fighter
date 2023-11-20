@@ -190,7 +190,7 @@ We value your feedback! Share your thoughts, suggestions, or report bugs on our 
 
 ## Credits
 
-This game was developed by [Your Game Studio Name]. Special thanks to the Unity community for their support and contributions.
+This game was developed by egeda9.
 
-Enjoy the thrill of the road - by egeda9
+Enjoy the thrill of the road
 
