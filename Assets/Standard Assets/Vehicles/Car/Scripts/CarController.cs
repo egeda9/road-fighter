@@ -38,6 +38,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
 
+        public float CustomSteerHelper = 0.66f;
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
         private float m_SteerAngle;
@@ -101,6 +102,12 @@ namespace UnityStandardAssets.Vehicles.Car
                     m_Rigidbody.velocity = Vector3.zero;
                 }
             }
+
+            if (SaveScript.BrakeSlide)
+                m_SteerHelper = 0.99f;
+
+            if (!SaveScript.BrakeSlide)
+                m_SteerHelper = this.CustomSteerHelper;
         }
 
         private void GearChanging()

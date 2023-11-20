@@ -8,6 +8,7 @@ public class SaveScript : MonoBehaviour
 {
     public static float InitialFuel = 2000;
     public static float Speed;
+    public static bool BrakeSlide;
     public static float TopSpeed;
     public static int Gear;
     public static int LapNumber;
@@ -42,6 +43,7 @@ public class SaveScript : MonoBehaviour
     public static bool WrongWayTextReset;
     public static bool ReduceSpeed;
     public static bool IsGamePaused;
+    public static bool RaceStart;
 
     // Start is called before the first frame update
     void Start()
